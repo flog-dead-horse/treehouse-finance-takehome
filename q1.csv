@@ -1,0 +1,8 @@
+id,Name,Salary,manager_id
+1,John,300,3
+2,Mike,200,3
+3,Sally,550,4
+4,Jane,500,7
+5,Joe,600,7
+6,Dan,600,3
+7,Phil,550,NULL
