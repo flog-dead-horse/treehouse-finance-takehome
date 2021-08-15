@@ -1,0 +1,10 @@
+#How many python files
+git ls-files | grep "\.py$" | wc -l
+#How many lines of code in total,
+git ls-files | grep ".py$" | xargs cat | wc -l 
+#How many functions is defined in total
+git grep "\bdef\b" -- '*.py' | wc -l
+# How many lines of changes from the current version against HEAD~3
+git diff HEAD~3 HEAD --shortstat
+# Total folder size (in MB) per each of the subfolder (down to 2 level depth)
+du -m -sh nested
